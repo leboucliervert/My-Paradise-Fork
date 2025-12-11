@@ -59,7 +59,7 @@
 
 /datum/gear/redfoxplushie
 	display_name = "Red fox plushie"
-	path = /obj/item/toy/plushie/red_fox
+	path = /obj/item/toy/plushie/fox
 
 /datum/gear/blackcatplushie
 	display_name = "Black cat plushie"

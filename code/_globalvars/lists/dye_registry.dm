@@ -252,4 +252,13 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_CE = /obj/item/clothing/head/helmet/space/syndicate/black/engie,
 		DYE_NTREP = /obj/item/clothing/head/helmet/space/syndicate/blue,
 	),
+	DYE_REGISTRY_FOX_PLUSHIE = list(
+		DYE_RED = /obj/item/toy/plushie/fox/crimson,
+		DYE_ORANGE = /obj/item/toy/plushie/fox/orange,
+		DYE_BLUE = /obj/item/toy/plushie/fox/blue,
+		DYE_PURPLE = /obj/item/toy/plushie/fox/purple,
+		DYE_BLACK = /obj/item/toy/plushie/fox/black,
+		DYE_WHITE = /obj/item/toy/plushie/fox/marble,
+		DYE_COFFEE = /obj/item/toy/plushie/fox/coffee,
+	),
 ))

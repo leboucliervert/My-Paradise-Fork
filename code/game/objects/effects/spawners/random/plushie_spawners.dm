@@ -17,15 +17,15 @@
 		),
 
 		list(
-			/obj/item/toy/plushie/red_fox,
-			/obj/item/toy/plushie/black_fox,
-			/obj/item/toy/plushie/marble_fox,
-			/obj/item/toy/plushie/blue_fox,
-			/obj/item/toy/plushie/orange_fox,
-			/obj/item/toy/plushie/coffee_fox,
-			/obj/item/toy/plushie/pink_fox,
-			/obj/item/toy/plushie/purple_fox,
-			/obj/item/toy/plushie/crimson_fox
+			/obj/item/toy/plushie/fox,
+			/obj/item/toy/plushie/fox/black,
+			/obj/item/toy/plushie/fox/marble,
+			/obj/item/toy/plushie/fox/blue,
+			/obj/item/toy/plushie/fox/orange,
+			/obj/item/toy/plushie/fox/coffee,
+			/obj/item/toy/plushie/fox/pink,
+			/obj/item/toy/plushie/fox/purple,
+			/obj/item/toy/plushie/fox/crimson
 		),
 
 		list(

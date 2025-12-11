@@ -676,31 +676,33 @@
 
 //foxes are basically the best
 
-/obj/item/toy/plushie/red_fox
+/obj/item/toy/plushie/fox //works
 	name = "red fox plushie"
 	icon_state = "redfox"
+	dyeable = TRUE
+	dyeing_key = DYE_REGISTRY_FOX_PLUSHIE
 
-/obj/item/toy/plushie/black_fox
+/obj/item/toy/plushie/fox/black //works
 	name = "black fox plushie"
 	icon_state = "blackfox"
 
-/obj/item/toy/plushie/marble_fox
+/obj/item/toy/plushie/fox/marble //works
 	name = "marble fox plushie"
 	icon_state = "marblefox"
 
-/obj/item/toy/plushie/blue_fox
+/obj/item/toy/plushie/fox/blue //works
 	name = "blue fox plushie"
 	icon_state = "bluefox"
 
-/obj/item/toy/plushie/orange_fox
+/obj/item/toy/plushie/fox/orange //works
 	name = "orange fox plushie"
 	icon_state = "orangefox"
 
-/obj/item/toy/plushie/orange_fox/grump
+/obj/item/toy/plushie/fox/orange/grump //Will not be made
 	name = "grumpy fox"
 	desc = "An ancient plushie that seems particularly grumpy."
 
-/obj/item/toy/plushie/orange_fox/grump/Initialize(mapload)
+/obj/item/toy/plushie/fox/orange/grump/Initialize(mapload)
 	. = ..()
 	var/static/list/grumps = list("Ahh, yes, you're so clever, var editing that.", "Really?", "If you make a runtime with var edits, it's your own damn fault.",
 	"Don't you dare post issues on the git when you don't even know how this works.", "Was that necessary?", "Ohhh, setting admin edited var must be your favorite pastime!",
@@ -708,19 +710,19 @@
 	"Congrats, you just left a reference with your dirty client and now that thing you edited will never garbage collect properly.", "Is it that time of day, again, for unecessary adminbus?")
 	AddComponent(/datum/component/edit_complainer, grumps)
 
-/obj/item/toy/plushie/coffee_fox
+/obj/item/toy/plushie/fox/coffee
 	name = "coffee fox plushie"
 	icon_state = "coffeefox"
 
-/obj/item/toy/plushie/pink_fox
+/obj/item/toy/plushie/fox/pink
 	name = "pink fox plushie"
 	icon_state = "pinkfox"
 
-/obj/item/toy/plushie/purple_fox
+/obj/item/toy/plushie/fox/purple //works
 	name = "purple fox plushie"
 	icon_state = "purplefox"
 
-/obj/item/toy/plushie/crimson_fox
+/obj/item/toy/plushie/fox/crimson
 	name = "crimson fox plushie"
 	icon_state = "crimsonfox"
 

@@ -202,7 +202,7 @@
 	possible_contents = list(/obj/item/clothing/under/misc/assistantformal,
 							/obj/item/clothing/under/syndicate/tacticool,
 							/obj/item/clothing/shoes/ducky,
-							/obj/item/toy/plushie/orange_fox/grump, // A grumpy plushie for a grumpy tider
+							/obj/item/toy/plushie/fox/orange/grump, // A grumpy plushie for a grumpy tider
 							/obj/item/multitool,
 							/obj/item/instrument/piano_synth,
 							/obj/item/toy/crayon/spraycan,

@@ -304,7 +304,7 @@ lobby_time = 240
 # Default timeout for world reboot (Seconds)
 restart_timeout = 75
 # Forbid people without a BYOND account joining the server
-guest_ban = true
+guest_ban = false
 # Allow players to use antagHUD?
 allow_antag_hud = true
 # Forbid players from rejoining if they use antag hud
@@ -447,7 +447,7 @@ enable_exp_admin_bypass = true
 allow_ai = true
 # Prevent guests (people without BYOND accounts) from playing following positions
 # Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, AI
-guest_job_ban = true
+guest_job_ban = false
 # Should assistants have maint access?
 assistant_maint_access = true
 # Should the amount of assistants be limited?
@@ -619,11 +619,11 @@ redis_connstring = "redis://127.0.0.1/"
 # This section contains configuration for all space ruins and lava ruins
 
 # Enable space z-level generation.
-enable_space = true
+enable_space = false
 # Enable lavaland generation.
-enable_lavaland = true
+enable_lavaland = false
 # Globally enable and disable placing of all ruins across lavaland and space.
-enable_ruins = true
+enable_ruins = false
 # Minimum number of extra space zlevels to generate
 minimum_space_zlevels = 2
 # Maximum number of extra space zlevels to generate
@@ -800,7 +800,7 @@ external_tos_handler = false
 # Path to the map datum to load, overriding the defaults and `data/next_map.txt`.
 # Do not use in production.
 # Comment out to disable.
-#override_map = "/datum/map/test_tiny"
+override_map = "/datum/map/test_tiny"
 # Regional servers.
 # This is not for separate DD instances per region, but if you have a geo-routing setup deployed to optimise routing for players
 # I am 99.9% certain you will never need to fill this out
