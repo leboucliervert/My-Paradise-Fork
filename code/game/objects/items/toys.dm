@@ -676,29 +676,29 @@
 
 //foxes are basically the best
 
-/obj/item/toy/plushie/fox //works
+/obj/item/toy/plushie/fox
 	name = "red fox plushie"
 	icon_state = "redfox"
 	dyeable = TRUE
 	dyeing_key = DYE_REGISTRY_FOX_PLUSHIE
 
-/obj/item/toy/plushie/fox/black //works
+/obj/item/toy/plushie/fox/black
 	name = "black fox plushie"
 	icon_state = "blackfox"
 
-/obj/item/toy/plushie/fox/marble //works
+/obj/item/toy/plushie/fox/marble
 	name = "marble fox plushie"
 	icon_state = "marblefox"
 
-/obj/item/toy/plushie/fox/blue //works
+/obj/item/toy/plushie/fox/blue
 	name = "blue fox plushie"
 	icon_state = "bluefox"
 
-/obj/item/toy/plushie/fox/orange //works
+/obj/item/toy/plushie/fox/orange
 	name = "orange fox plushie"
 	icon_state = "orangefox"
 
-/obj/item/toy/plushie/fox/orange/grump //Will not be made
+/obj/item/toy/plushie/fox/orange/grump
 	name = "grumpy fox"
 	desc = "An ancient plushie that seems particularly grumpy."
 
@@ -718,7 +718,7 @@
 	name = "pink fox plushie"
 	icon_state = "pinkfox"
 
-/obj/item/toy/plushie/fox/purple //works
+/obj/item/toy/plushie/fox/purple
 	name = "purple fox plushie"
 	icon_state = "purplefox"
 
