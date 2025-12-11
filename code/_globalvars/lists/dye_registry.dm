@@ -259,6 +259,5 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_PURPLE = /obj/item/toy/plushie/fox/purple,
 		DYE_BLACK = /obj/item/toy/plushie/fox/black,
 		DYE_WHITE = /obj/item/toy/plushie/fox/marble,
-		DYE_COFFEE = /obj/item/toy/plushie/fox/coffee,
 	),
 ))
